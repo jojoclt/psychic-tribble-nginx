@@ -1,3 +1,23 @@
-{
-    "message": "This is a test JSON file!"
-}
+[
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.jojonosaurs.suapabaseauth",
+            "sha256_cert_fingerprints": [
+                "D2:E2:3A:01:E6:D0:7A:43:3A:1C:D2:53:70:72:7F:6C:45:19:81:1A:60:38:9B:5E:F3:F9:92:39:9A:D3:5E:35"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "web",
+            "site": "https://supabase.jojonosaur.us"
+        }
+    }
+]
